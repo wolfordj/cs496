@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="author" content="Justin Wolford"/>
+		<title>CS494 Course Overview</title>
+		<link href="css/sass-bootstrap.css" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="navigation">
+			<div class="container">
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+						</button>
+				<div/>
+				<div class="collapse navbar-collapse" id="navbar">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li class="active">
+							<a href="#">Overview</a>
+						</li>
+						<li>
+							<a href="policies.html">Policies</a>
+						</li>
+						<li>
+							<a href="grading.html">Grading</a>
+						</li>
+						<li>
+							<a href="tools.html">Tools</a>
+						</li>
+						<li>
+							<a href="calendar.html">Calendar</a>
+						</li>
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="page-header">
+				<h1>Class Overview</h1>
+			</div>
+			<section>
+				<h2>Course Content</h2>
+				<h3>Layout</h3>
+				<p>The first portion of this class focuses on the layout and styling websites. In this portion of the class we will learn how to use HTML5 and CSS to create layouts for pages and style those layouts. We will write code that is conformant with current standards as published by the W3C.</p>
+				<h3>Interactivity</h3>
+				<p>The second portion of this class will focus on making interactive websites. To accomplish this we will use JavaScript to implement client side interactions. A user will be able to interact with a web page and see changes in real time. Examples might include implementing a simple calculator or periodically checking for new news stories and appending them to the page as the appear.</p>
+				<p>This will also include more complex interactions using Ajax along with an introduction to the storage of data on the client computer.</p>
+				<h3>Server Side Interaction</h3>
+				<p>The third portion of this class will focus on creating dynamic web pages on the server side. This means the content sent to the client from the server will change based on the state of the server. This could include things like allowing a user to save a to-do list and later retrieve it from a different computer or letting users asynchronously play a game of checkers against each other. We will accomplish this using PHP as our server side scripting language.</p>
+				<p>This portion of the class will also teach very basic database interaction and we will learn how to save and later retrieve data from a MySQL database to be used in the rendering of web pages.</p>
+				<h3>Design Considerations</h3>
+				<p>This portion of the class will look at the topics of security, scalability and usability in the context of web applications. We will learn about these topics while implementing a final project which should use the best practices from each area to produce an efficient, usable and scalable web application.</p>
+			</section>
+			<section>
+				<h2>Student Expectations</h2>
+				<h3>Prior Knowledge</h3>
+				<p>Students are expected to know the following:</p>
+				<div class="well">
+					<dl>
+						<dt>Basic data types</dt>
+						<dd><a href="http://msdn.microsoft.com/en-us/library/cc953fe1.aspx">This list</a> of data types should be familiar or at least understandable after reading the type description.</dd>
+						<dt>Common object types</dt>
+						<dd>You should know what a string is. You should know if there is a difference between a string and an array. You should know the difference between a string in C and a string object in C++</dd>
+						<dt>Complex data types</dt>
+						<dd>You should know what an array is, what a struct is and what, if any, differences there are between them.</dd>
+						<dt>Flow control primitives</dt>
+						<dd>You must be very comfortable with for, while, if/else, switch and do/while. You should know how they work, you should know what <code>i</code> is equal to at the completion of a loop if the condition says <code>for(i=0, i&lt5, i++)</code>, is it 5 or is it 6?</dd>
+						<dt>Scope</dt>
+						<dd>No matter where I declare <code>int foo</code> in your code, you should be able to figure out if any other arbitrary spot in your code can access that variable. You should know what public and private functions are and what happens (and what it means) when variables go out of scope.
+						</dd>
+						<dt>Problem solving</dt>
+						<dd>If a language does not provide you a tool to do something, but you need that tool to make progress, you should be comfortable making it yourself. You should be comfortable making helper functions, even when the requirements  don't call for it.</dd>
+						<dt>Organization and documentation</dt>
+						<dd>You should know that all of your source code probably does not belong in a single file and that every public function should have comments.
+						</dd>
+						<dt>Things not on this list</dt>
+						<dd>This is not a comprehensive list, but it is a good start. If you don't know any of these topics, consider reviewing them before the class begins.</dd>
+					</dl>
+				</div>
+				<h3>Communication</h3>
+				<p>Read <a href="https://secure.engr.oregonstate.edu/wiki/eecs-classes/index.php/Students/EComms">this guide</a> on online communication. Read it 2 more times for good measure. Follow every link in the section on asking good questions and giving good answers. You will be graded on the quality of your discussion. You need to communicate with clients and coworkers in the real world, you need to communicate with your fellow students here. You learn by finding the limits and holes in your knowledge. The best way for you to find them is to talk with others about the topics at hand.</p>
+				<h3>Code quality</h3>
+				<p>The easiest way to sum this up is that every program must be syntactically perfect. There are tools you can use to check the syntax of your program. The only exception to this rule is if I specifically allow a warning or notification in one of these checkers. Run time errors are unacceptable as well. In no situation should your program output a standard PHP error. If there is a problem or the user put the site into an invalid state, the error should be handled in a way as to gracefully notify the user that there was a problem.</p>
+				<p>In terms of style, all code should conform to the Google <a href="http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml">HTML5 and CSS</a> style guide, the Google <a href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml">JavaScript</a> style guide and the Pear <a href="http://pear.php.net/manual/en/standards.php">PHP</a> style guide. Any code that does not conform to these style guides will not be accepted until it is made to conform. The TA and myself can, at our discretion, make exceptions for very minor violations. There are several programs you can download to check if your file conforms to these guidelines.</p>
+			</section>
+		</div>
+
+	</body>
