@@ -17,13 +17,13 @@ Class Resource Template
 <ul class="ui-corner-all" style="list-style-type: none; padding: 10px;">
 <li class="ui-corner-all" style="background: #E5EAFB; margin: 10px; padding: 0px 10px 5px 10px;">
 <h3><a href="URL_HERE">TITLE_HERE</a></h3>
-DESCRIPTION HERE.</li>
+DESCRIPTION_HERE.</li>
 </ul>
 
 <--! Action -->
 <ul class="ui-corner-all" style="list-style-type: none; padding: 10px;">
 <li class="ui-corner-all" style="background: #FFF2E6; margin: 10px; padding: 0px 10px 5px 10px;">
 <h3><a href="URL_HERE">TITLE_HERE</a></h3>
-DESCRIPTION HERE.</li>
+DESCRIPTION_HERE.</li>
 </ul>
 ```
